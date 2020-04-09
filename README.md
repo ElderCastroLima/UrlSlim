@@ -11,18 +11,18 @@ The UrlSlim is open-sourced software licensed under the [MIT license](https://op
 
 ## How to config
 
-1 - Clone repo
-2 - Run composer install
-3 - Rename .env.example for .env 
-4 - Add database config in .env
-5 - Run php artisan migrate - for generate the database
-6 - Run php artisan db:seed - for populate parteners table
+1 - Clone repo\
+2 - Run composer install\
+3 - Rename .env.example for .env\ 
+4 - Add database config in .env\
+5 - Run php artisan migrate - for generate the database\
+6 - Run php artisan db:seed - for populate parteners table\
 
 ## How to use
 
-rum php artisan serve for start a server local
+rum php artisan serve for start a server local\
 
-[/POST]
+[/POST] /api/generate
 ```json
 {
 	"partner" : "Partner 1",
@@ -39,6 +39,6 @@ Response
 
 ```
 
-#Made By
+## Made By
 
 Laravel Framework
